@@ -1,0 +1,16 @@
+MISE EN PLACE D'UN ENVIRONNEMENT DE PROGRAMMATION PYTHON ET D'OPTIMISATION
+
+""""" WINDOWS x64
+
+1. Télécharger et installer Python 3.6.8
+
+2. Télécharger et installer PySCIPOPT
+
+3. Installer un éditeur (PyCharm, Sublime, Emacs, Notepad++ ou Ipython)
+pip install ipython
+pip install pyscipopt
+
+import pyscipopt
+
+4. Cloner le kit du Boot Camp
+pip install -e git+https://github.com/Abzalov50/bootcampRO2020#egg=bootcampRO2020

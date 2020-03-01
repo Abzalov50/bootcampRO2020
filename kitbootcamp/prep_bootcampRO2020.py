@@ -30,5 +30,5 @@ def solution_eq_2nd_degre(a, b, c):
         res = (x_0,)
     else:
         res = None
-        return res
+    return res
 

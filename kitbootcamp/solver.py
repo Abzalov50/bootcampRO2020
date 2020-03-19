@@ -10,12 +10,12 @@ import pyscipopt as scip
 
 flag = False
 try:
-    flag = True
     import gurobipy as grb
+    flag = True    
 except ImportError:
     print('**** Gurobi is not installed, so I do not load it')
 
-from ems.components.abstract_comp import AbstractSolver
+from .abstract_solver import AbstractSolver
 
 
 if flag:
